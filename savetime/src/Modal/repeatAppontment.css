@@ -1,0 +1,129 @@
+/* *{
+    margin: 0;
+} */
+.rpt-aptContainer2 {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  /* margin-top: 20px; */
+  margin-left: 20px;
+}
+.rpt-GridItem2{
+    margin-left: 30px !important;
+}
+.rpt-select-service {
+  width: 100%;
+  margin: 10px 0px;
+}
+.rpt-select-worker p {
+  border-bottom: 1px solid gray;
+}
+.close{
+
+  font-size: 4rem !important;
+  font-weight: bolder !important;
+}
+.close-icon{
+  color: rgb(214, 28, 56) !important;
+  position: absolute;
+  right: 1px;
+  top: -15px;
+  cursor: pointer;
+}
+.buttons {
+  display: flex;
+  justify-content: center !important;
+  margin-right: 100px;
+  height: 44px;
+  align-items: center;
+}
+.left-btns {
+  padding: 0px 15px;
+  /* padding: 6px 8px;
+    width: 100px;
+    border: 1px solid black;
+    margin-left: 30px; */
+}
+.returnBtnrpt {
+  /* margin-right: 30%; */
+  width: 170px;
+  border: 2px solid rgb(0, 0, 0) !important;
+  margin-top: 10px;
+  color: rgb(255, 255, 255) !important;
+  height: 44px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  background-color: #d61c38;
+  margin-left: 30px;
+}
+.returnBtnrpt:hover{
+  background-color: #d61c38 !important;
+  color: rgb(255, 255, 255) !important;
+}
+.saveBtnrpt{
+  width: 170px;
+  border: 2px solid rgb(0, 0, 0) !important;
+  margin-top: 10px;
+  color: rgb(255, 255, 255) !important;
+  height: 44px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  margin-left: 30px;
+  background-color: #00ad22;
+}
+.saveBtnrpt:hover{
+  color: rgb(255, 253, 253) !important;
+  background-color: #00ad22 !important;
+}
+.saveAdviseBtnrpt {
+  width: 200px;
+  border: 2px solid rgb(0, 0, 0) !important;
+  margin-top: 10px;
+  color: rgb(255, 255, 255) !important;
+  height: 45px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  background-color: #00ad22;
+  margin-left: 60px;
+}
+.saveAdviseBtnrpt{
+  background-color: #00ad22 !important;
+  color: rgb(255, 255, 255) !important;
+}
+.aptDatas{
+  margin: 10px auto;
+    height: 400px;
+    overflow-y: auto;
+}
+
+.apt-data{
+  margin: 8px;
+  width: 250px;
+  height: 40px;
+  border: 2px solid #00ad22;
+  border-radius: 10px;
+}
+
+.contenttitle{
+  margin: 80px 90px;
+  font-size: 20px;
+  text-align: center;
+  color: red;
+}
+.maincontent{
+  margin: 51px 53px;
+  font-size: 20px;
+  text-align: center;
+  color: green;
+}
+.confirmBtn{
+  width: 170px;
+  border: 2px solid rgb(0, 0, 0) !important;
+  margin-top: 10px;
+  color: rgb(255, 255, 255) !important;
+  height: 44px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  background-color: #00ad22;
+  margin-left: 30px;
+}

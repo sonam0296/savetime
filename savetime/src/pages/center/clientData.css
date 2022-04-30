@@ -1,0 +1,132 @@
+.MuiTableCell-root{
+    border: 1px solid red;
+    text-align: left !important;
+}
+.MuiTableBody-root{
+    border: 1px solid red;
+}
+.MuiTable-root{
+    border: 2px solid rgb(103, 103, 238) !important;
+}
+/* .MuiTableCell-root{
+    padding: 10px !important;
+} */
+.makeStyles-table-53{
+    width: 831px !important;
+    justify-content: center;
+    margin-left: 26px !important;
+}
+.close{
+    font-size: 4rem;
+}
+.close-icon{
+    color: rgb(214, 28, 56) !important;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    cursor: pointer;
+  }
+.clientListMaindiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+.client-info-active-details{
+    /* margin-top: 50px;
+    margin-left: 50px; */
+    display: flex;
+    width: 100%;
+    /* border: 2.5px solid rgb(34, 218, 34); */
+    border-radius: 11px;
+    cursor: pointer;
+    margin-top: -1.5rem;
+}
+.client-info-inactive-details{
+    /* margin-top: 50px;
+    margin-left: 50px; */
+    display: flex;
+    width: 100%;
+    /* border: 2.5px solid rgb(218, 27, 59); */
+    border-radius: 11px;
+    margin-top: -1.5rem;
+}
+.client-info-active-details > img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 11px;
+}
+.client-info-inactive-details > img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 20px;
+}
+.client-data{
+    width: 100%;
+    margin-left: 10px;
+    /* padding: 10px; */
+}
+.switch{
+    display: flex;
+    float: right;
+}
+.clientsListDropdowm{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    width: 30rem;
+    
+}
+.select-service{
+    color: red;
+}
+
+.main-btns{
+    width: 100%;
+     display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+  .flw-btn-client{
+display: flex;
+justify-content: center;
+  }
+  .rtn-btn-client{
+display: flex;
+justify-content: center;
+  }
+.returnbtn_client {
+    width: 50%;
+    color: rgb(255, 238, 238);
+    border: 2px solid black;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    height: 40px;
+    /* margin-left: -30px; */
+    cursor: pointer;
+    font-size: 21px;
+    border-radius: 20px;
+    background-color: #d61c38;
+    margin-right: 20px;
+    /* margin-left: 200px; */
+  }
+  .returnbtn_client:hover{
+    background-color: #d61c38;
+  }
+  .createbtn_client {
+    margin-top: 80px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    /* margin-bottom: 20px; */
+    color: rgb(247, 240, 240);
+    width: 50%;
+    cursor: pointer;
+    height: 40px;
+    font-size: 21px;
+    border-radius: 20px;
+    background-color: #00ad22;
+  }
+  .createbtn_client:hover{
+    background-color: #00ad22;
+  }

@@ -1,0 +1,64 @@
+
+.centers .MuiFormControl-marginNormal {
+    margin-top:6px !important;
+    margin-bottom: 8px !important;
+}
+.MuiInput-underline:after{
+  border-bottom: 2px solid #D61C38 !important;
+}
+.MuiFormLabel-root.Mui-focused{
+  color: #D61C38 !important;
+}
+.MuiButton-contained:hover{
+  background-color:#D61C38 !important;
+  box-shadow: none !important;
+
+
+}
+.center-signup{
+  
+  /* width: 100% !important; */
+  margin: auto !important;
+}
+.PhoneInput{
+height: 45px !important;
+}
+.PhoneInputCountry{
+  height: 40px !important;
+}
+.PhoneInputInput{
+  height: 40px !important;
+  /* border-radius: 10px !important; */
+}
+.registration_input{
+  width: 100% !important;
+}
+@media only screen and (max-device-width: 920px) {
+  .center-signup{
+     width: 100% !important;
+     margin: 1rem auto !important;
+  }
+  
+}
+/* .kzKtnG{
+  width: 40% !important;
+} */
+.MuiStepIcon-root.MuiStepIcon-completed{
+  color: #D61C38 !important;
+}
+.MuiStepIcon-root.MuiStepIcon-active{
+  color: #D61C38 !important;
+}
+.MuiInput-underline:hover:not(.Mui-disabled):before{
+  border-bottom:2px solid #D61C38 !important;
+}
+.next-btn{
+  background-color: #D61C38 !important;
+  color: white;
+}
+.ReactFlagsSelect-module_selectBtn__19wW7{
+  margin-top: 21px !important;
+}
+.MuiPaper-root{
+  /* margin:0rem 1rem !important; */
+}

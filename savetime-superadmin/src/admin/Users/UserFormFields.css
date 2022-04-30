@@ -1,0 +1,19 @@
+.rightText{
+    margin: 20px;
+}
+.backButton{
+    background-color: white !important;
+    border-radius: 15px;
+    margin-left: 10px;
+    text-align: center;
+    border: 2px solid #D50032;
+    color: #D50032;
+}
+.saveButton{
+    background-color: white !important;
+    border-radius: 15px;
+    margin-left: 10px;
+    text-align: center;
+    border: 2px solid green;
+    color: green;
+}

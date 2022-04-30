@@ -1,0 +1,26 @@
+.activate{
+          display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 600px !important;
+   width: 500px !important;
+   margin: 1rem !important;
+  flex-direction: column !important;
+}
+.activate .activate-text{
+  font-size: 2rem !important;
+  font-weight: 800;
+  margin: 1rem !important;
+  color: #D61C38 !important;
+}
+.activate .activate-btn{
+  margin: 2rem !important;
+}
+.activate-logo{
+  margin: 0rem !important;
+}
+.activate-logo .logo{
+  margin-bottom: 1rem !important;
+  width:150px;
+  height: 150px;
+}

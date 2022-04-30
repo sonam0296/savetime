@@ -1,0 +1,9 @@
+
+.map{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:90% !important;
+  margin: 1rem !important;
+  height:120% !important;
+}

@@ -1,0 +1,125 @@
+.name-field{
+  width: 70%;
+  margin: 0.5rem !important;
+}
+.worker-papers{
+   width: 100%;
+   margin: auto !important;
+   height: 600px;
+   max-height:600px; 
+   overflow-y: auto;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* border:2px solid gray !important; */
+   background-color: white;
+   /* box-shadow: 3px 3px 7px rgb(113, 113, 230); */
+   border-radius: 30px !important;
+   outline:unset !important;
+
+}
+.worker-papers:focus{
+  outline: none !important;
+}
+.papers-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-size: 3rem; */
+  /* font-weight: 800; */
+
+  padding: 1rem !important;
+}
+/* .MuiSwitch-switchBase{
+  top: 2px !important;
+} */
+.worker-1{
+   display: flex;
+  align-items: center;
+
+
+}
+.avatar-image{
+  width: 152px !important; 
+  height: 152px !important;
+}
+.paper-schedule{
+    display: flex;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.paper-schedule .schedule-input{
+  margin: 0rem 3rem !important;
+}
+.paper-schedule .main-shedule{
+  margin-top: 3rem !important;
+}
+.sb-avatar{
+  margin-top:1rem !important;
+  /* border: 1px solid red !important; */
+}
+.paper-schedule .worker-btn{
+  margin: 0rem 2rem !important;
+margin-top: -20px !important;
+}
+.worker-paper-btn{
+  display: flex !important;
+  align-items: center !important;
+  justify-content:space-around !important;
+  /* margin: 5rem !important; */
+  margin-left: -2rem !important;
+  padding: 1rem 0rem !important;  
+  /* margin-top: -20px; */
+}
+.worker_return{
+  background-color: rgb(214, 28, 56);
+  color: white;
+  width: 120px;
+  height: 40px;
+  border: 2px solid black;
+  border-radius: 30px;
+  font-size: 20px;
+  /* margin-left: 6rem; */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.worker_return:hover{
+  background-color: rgb(214, 28, 56);
+  color: white;
+}
+.worker_following{
+  background-color: rgb(0, 173, 34);
+    color: white;
+    width: 120px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.worker_following:hover{
+  background-color: rgb(0, 173, 34);
+    color: white;
+}
+.paper-schedule .worker-btn .MuiButton-root{
+  /* padding: 0.1rem 2.2rem !important; */
+}
+.close{
+
+  font-size: 4rem !important;
+  font-weight: bolder !important;
+}
+.close-icon{
+  color: rgb(214, 28, 56) !important;
+  position: absolute;
+  right: 1px;
+  top: -15px;
+  cursor: pointer;
+  margin: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .worker-paper-btn{
+    margin-left: 0rem !important;
+  }
+}

@@ -1,0 +1,33 @@
+.centered {
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 500px) {
+    .centered {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        bottom: 5%;
+        transform: translate(-50%, -50%);
+    }
+    .image {
+        width: 500px;
+        height: 400px;
+    }
+}
+
+.image {
+    width: 1600px;
+    height: 630px;
+}
+
+.unScrobale {
+    overflow: hidden;
+}
+
+.ldJXiE {
+    max-width: none !important;
+}

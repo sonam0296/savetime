@@ -1,0 +1,78 @@
+.emg-container{
+    width: 100%;
+    height: 740px;
+    /* margin-left: 118px; */
+    margin-top: 39px;
+    display: flex !important;
+    justify-content: space-around !important;
+}
+.returnBtn {
+    /* margin-right: 30%; */
+    width: 120px;
+    border: 1.5px solid black;
+    margin-top: 10px;
+    color: rgb(10, 3, 3);
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #d61c38;
+    /* margin-left: 50px; */
+  }
+  .right-subItems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .slectors{
+    display: flex !important;
+    width: 450px;
+    justify-content: space-around !important;
+  }
+  .select-service{
+      width:40%;
+  }
+  .select-worker{
+      width: 40%;
+  }
+  .startTime{
+      margin: 10px;
+  }
+  .endTime{
+      margin: 10px;
+      margin-left: -1px;
+  }
+  .allDayBtn{
+      margin-top: 10px;
+  }
+  .main-btns{
+    width: 100%;
+     display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+  .goBackBtn {
+    width: 210%;
+    color: rgb(255, 238, 238);
+    border: 1.5px solid black;
+    margin-top: 84px;
+    height: 40px;
+    margin-left: -30px;
+    cursor: pointer;
+    font-size: 23px;
+    border-radius: 20px;
+    background-color: #d61c38;
+    margin-right: 20px;
+    /* margin-left: 200px; */
+  }
+  .cancleAppoinment {
+    margin-top: 80px;
+    border: 1.5px solid black;
+    /* margin-bottom: 20px; */
+    color: rgb(247, 240, 240);
+    width: 100%;
+    cursor: pointer;
+    height: 40px;
+    font-size: 23px;
+    border-radius: 20px;
+    background-color: #d61c38;
+  }

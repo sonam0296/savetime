@@ -1,0 +1,91 @@
+.clientListMaindiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+.client-info-active{
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    width: 400px;
+    border: 2.5px solid rgb(34, 218, 34);
+    border-radius: 11px;
+    
+}
+.client-info-inactive{
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    width: 400px;
+    border: 2.5px solid rgb(218, 27, 59);
+    border-radius: 11px;
+}
+.client-info-active > img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 11px;
+    cursor: pointer;
+}
+.client-info-inactive > img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.client-data{
+    width: 100%;
+    margin-left: 10px;
+    /* padding: 10px; */
+}
+.switch{
+    display: flex;
+    float: right;
+}
+.clientsListDropdowm{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    width: 30rem;
+    
+}
+.select-service{
+    color: #D61C38;
+}
+
+.main-btns{
+    width: 100%;
+     display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+.returnbtn_main {
+    width: 100%;
+    color: rgb(255, 238, 238);
+    border: 2px solid black;
+    margin-top: 80px;
+    height: 40px;
+    /* margin-left: -30px; */
+    cursor: pointer;
+    font-size: 22px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background-color: #d61c38;
+    margin-right: 20px;
+    /* margin-left: 200px; */
+  }
+  .createbtn_main {
+    margin-top: 80px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    /* margin-bottom: 20px; */
+    color: rgb(247, 240, 240);
+    width: 150%;
+    cursor: pointer;
+    height: 40px;
+    font-size: 22px;
+    border-radius: 20px;
+    background-color: #00ad22;
+    cursor: pointer;
+  }

@@ -1,0 +1,7 @@
+.header-logo{
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .MuiAppBar-colorPrimary{
+    z-index: 1 !important;
+  }

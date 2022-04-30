@@ -1,0 +1,74 @@
+.roundButton {
+    color: #D61C38 !important;
+    background-color: #f0f0f0 !important;
+    border: 1px solid black;
+    padding: 7px;
+    border-top-left-radius: 50px 50px;
+    border-bottom-left-radius: 50px 50px;
+    border-top-right-radius: 50px 50px;
+    border-bottom-right-radius: 50px 50px;
+    width: 12rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.roundButton:hover{
+    color: #D61C38 !important;
+    background-color: #f0f0f0 !important;
+}
+
+.roundButtonForBack {
+    background-color: #D61C38 !important;
+    color: #f0f0f0 !important;
+    border: 1px solid black;
+    padding: 15px;
+    border-top-left-radius: 50px 50px;
+    border-bottom-left-radius: 50px 50px;
+    border-top-right-radius: 50px 50px;
+    border-bottom-right-radius: 50px 50px;
+    width: 15rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    font-size: large;
+}
+
+.ServicesShow {
+    padding: 0.5rem;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #D61C38;
+    width: 40%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+   
+}
+
+.ShowSwitchButton{
+    display: flex;
+    align-items: center;
+}
+.avtarShow{
+    border: 1px solid #D61C38;
+}
+.ShowServiceName{
+    margin-left: 1rem;
+}
+@media only screen and (max-width: 600px) {
+    .ServicesShow {
+        padding: 0.5rem;
+        align-items: center;
+        text-align: center;
+        border: 2px solid #D61C38;
+        width: 80%;
+        border-radius: 50px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1.2rem;
+        margin-bottom: 1.2rem;
+       
+    }
+}

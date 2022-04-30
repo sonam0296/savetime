@@ -1,0 +1,22 @@
+.div-1{
+    width: 100% !important;
+    justify-content: center;
+    /* margin: 1rem !important; */
+    display: flex;
+    align-items: center;
+  }
+  .div-2{
+    width: 100% !important;
+    /* justify-content: center; */
+    display: flex;
+    align-items: center;
+  }
+  .mainPage-container{
+    /* max-width: 100% !important; */
+    height:100vh !important;
+    width:100% !important;
+  }
+  .deleteIcon {
+    display: flex;
+    align-items: center;
+  }

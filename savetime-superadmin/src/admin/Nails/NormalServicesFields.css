@@ -1,0 +1,21 @@
+.rightText{
+    margin: 30px;
+}
+.rightText1{
+    margin-top: 50px;
+}
+.buttonSave{
+    background-color: white !important;
+    border-radius: 15px;
+    margin-left: 10px;
+    text-align: center;
+    border: 2px solid #D50032;
+}
+.buttonSaveChanges
+{
+    background-color: white !important;
+    border-radius: 15px;
+    margin-left: 10px;
+    text-align: center;
+    border: 2px solid green;
+}

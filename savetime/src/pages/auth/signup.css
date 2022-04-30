@@ -1,0 +1,46 @@
+.MuiInput-underline:after{
+  border-bottom: 2px solid #D61C38 !important;
+}
+.MuiFormLabel-root.Mui-focused{
+  color: #D61C38 !important;
+}
+.MuiButton-contained:hover{
+  background-color:#D61C38 !important;
+  box-shadow: none !important;
+
+}
+.signup-container{
+  /* width: 40% !important; */
+  margin:1rem auto !important;
+}
+.userSignup{
+  width: 100% !important;
+}
+.PhoneInput{
+  height: 45px !important;
+  }
+  .PhoneInputCountry{
+    height: 40px !important;
+  }
+  .PhoneInputInput{
+    height: 40px !important;
+    /* border-radius: 10px !important; */
+  }
+@media only screen and (max-device-width: 920px) {
+  .signup-container{
+     width: 100% !important;
+     margin: 1rem auto !important;
+  }
+  
+}
+
+/* .eYjDbo{
+  width: 50% !important;
+  margin: auto !important;
+}
+.hmAhHb{
+  width: 50% !important;
+} */
+.MuiInput-underline:hover:not(.Mui-disabled):before{
+  border-bottom:2px solid #f44336 !important;
+}

@@ -1,0 +1,26 @@
+.loginWithOtp{
+    width: 186px;
+    font-size: 17px;
+      border-radius: 100px;
+      background-color: #00ad22;
+      color: white;
+      border: 2px solid black;
+      height: 44px;
+}
+.loginWithOtp:hover{
+    background-color: #00ad22 !important;
+    color: white;
+}
+.loginWithoutOtp{
+    width: 190px;
+    font-size: 17px;
+      border-radius: 100px;
+      background-color: #d61c38;
+      color: rgb(252, 252, 252);
+      border: 2px solid black;
+      height: 44px;
+}
+.loginWithoutOtp:hover{
+    background-color: #d61c38 !important;
+    color: rgb(252, 252, 252);
+}

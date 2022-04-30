@@ -1,0 +1,46 @@
+.paper-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem !important;
+}
+.paper-form .text-field{
+  width: 77% !important;
+    margin: 0.3rem !important;
+  /* width: 60% !important; */
+  /* margin:0.4rem !important; */
+}
+.map-btn .paper-btn{
+  display: flex !important;
+  align-items: center !important;
+  justify-content:space-around !important;
+  margin: 5rem 3rem!important;
+  /* margin-top: 1rem !important; */
+  
+  padding: 1rem !important;
+}
+.papers{
+   /* width: 70%; */
+   margin: 1rem !important;
+   height: 85%;
+   /* max-height: 750px;  */
+   /* overflow: auto; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   box-shadow: 3px 3px 7px rgb(113, 113, 230);
+   border-radius: 15px !important;
+   outline: none !important;
+
+}
+/* @media screen only {
+  
+} */
+/* .worker-btn .paper-btn{
+  padding: 10px !important;
+  font-size: 5px !important;
+
+
+} */

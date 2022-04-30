@@ -1,0 +1,49 @@
+.worker-btn-permission{
+    display: flex;
+    align-items: center;
+    justify-content:space-between !important;
+    margin: 20px;
+    /* margin-bottom: 5rem !important; */
+    width: 100%;
+  }
+  .mainPage-container{
+    /* max-width: 100% !important; */
+    height:100vh !important;
+    width:100% !important;
+  }
+  .serviceButton{
+      margin: 10px;
+      background-color: #00AD22 !important;
+      border-radius: 30px;
+      width: 840px;
+      height: 45px;
+      font-size: 20px;
+  }
+  .serviceButton2{
+    margin: 10px;
+    background-color: #ffffff;
+    border: 2px solid #d61c38;
+    border-radius: 30px;
+    width: 840px;
+    height: 45px;
+    font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .serviceButton{
+    margin: 10px;
+    background-color: #00AD22 !important;
+    border-radius: 30px;
+    width: 300px;
+    /* height: 45px; */
+    font-size: 20px;
+}
+.serviceButton2{
+  margin: 10px;
+  background-color: #ffffff;
+  border: 2px solid #d61c38;
+  border-radius: 30px;
+  width: 300px;
+  /* height: 45px; */
+  font-size: 20px;
+}
+}

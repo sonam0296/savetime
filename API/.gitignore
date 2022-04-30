@@ -1,0 +1,9 @@
+/node_modules
+/uploads
+/.env
+/sonar-project.properties
+/package-lock.json
+/.vscode
+.idea/
+.vscode/
+./package.json

@@ -1,0 +1,39 @@
+.country-papers{
+  display: flex;
+  /* align-items: center; */
+  /* flex-direction: row; */
+  margin: 1rem !important;
+  /* flex-wrap: wrap; */
+   width: 70%;
+   height: 85%;
+   background-color: white;
+   box-shadow: 3px 3px 7px rgb(113, 113, 230);
+   border-radius: 15px !important;
+    outline: none !important;
+}
+.country-papers .country-flag{
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important; 
+  margin: 1rem !important;
+}
+.flag-text:hover{
+  /* width: 60% !important; */
+  background-color: rgb(255, 196, 0);
+  /* border:1px solid black; */
+  border-radius:40px;
+  cursor: pointer;
+  z-index: 1;
+  /* margin-right: 10px !important; */
+  opacity: 0.7;
+}
+.flags{
+  margin:0.5rem 1rem !important;
+  /* border-radius: 30% !important; */
+}
+.flag-text{
+  display: flex;
+  flex-direction: row;
+  align-items: center !important;
+  /* justify-content: space-around; */
+}

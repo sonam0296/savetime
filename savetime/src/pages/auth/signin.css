@@ -1,0 +1,32 @@
+.MuiInput-underline:after{
+  border-bottom: 2px solid #D61C38 !important;
+}
+.MuiFormLabel-root.Mui-focused{
+  color: #D61C38 !important;
+}
+.MuiButton-contained:hover{
+  background-color:#D61C38 !important;
+  box-shadow: none !important;
+
+}
+.MuiInput-underline:hover:not(.Mui-disabled):before{
+  border-bottom:2px solid #D61C38 !important;
+}
+.login-logo{
+  margin: 0.5rem !important;
+  width:120px;
+  height: 120px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 1rem;
+  margin: 0 auto !important;
+}
+/* .MuiFormLabel-root{
+  color: #f44336; 
+} */
+
+.MuiPaper-root .sc-fzqMAW .emjQra .MuiPaper-elevation1 .MuiPaper-rounded{
+  margin: auto !important;
+  width: 500px;
+}

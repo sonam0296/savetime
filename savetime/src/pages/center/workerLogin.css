@@ -1,0 +1,80 @@
+.workerloginmaindiv {
+  margin-top: 30px;
+}
+.inputNumDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.workerimg {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.inputNum > input {
+  font-size: 80px;
+  width: 140px !important;
+  height: 140px !important;
+  border-radius: 50%;
+  margin: 10px;
+  text-align: center;
+  border: 1px solid grey;
+  text-decoration: none;
+  outline: none;
+  text-orientation: unset;
+  margin-left: 40px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.addministator {
+  margin-top: 80px;
+  border: 2.5px solid black;
+  /* margin-bottom: 20px; */
+  color: rgb(247, 240, 240);
+  width: 15%;
+  float: right;
+  cursor: pointer;
+  height: 40px;
+  font-size: 23px;
+  border-radius: 20px;
+  background-color: #d61c38;
+  margin-right: 125px;
+}
+
+@media only screen and (max-width: 600px) {
+  .inputNum > input {
+    font-size: 80px;
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 50%;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid grey;
+    text-decoration: none;
+    outline: none;
+    text-orientation: unset;
+    margin-left: 5px;
+  }
+  /* .inputNum {
+    font-size: 80px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid grey;
+    text-decoration: none;
+    outline: none;
+    text-orientation: unset;
+    margin-left: 40px;
+  } */
+}

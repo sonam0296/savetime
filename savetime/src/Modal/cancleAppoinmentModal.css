@@ -1,0 +1,187 @@
+.workeritemleft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.workerImage {
+  width: 250px;
+  height: 250px;
+  /* border: 1px solid black; */
+  border-radius: 100%;
+}
+.workeritemright {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0px;
+}
+.name-field {
+  margin: 15px 0px !important;
+  width: 80% !important;
+}
+.name-field-select{
+  width: 66% !important;
+  margin: 15px 0px !important;
+}
+.close {
+  font-size: 3rem !important;
+  font-weight: bolder !important;
+}
+.close-icon {
+  color: rgb(214, 28, 56) !important;
+  position: absolute;
+  right: 5px;
+  top: 1px;
+  cursor: pointer;
+}
+.returnBtncancleApp {
+  /* margin-right: 30%; */
+  width: 190px;
+  border: 2px solid rgb(0, 0, 0) !important;
+  margin-top: 10px;
+  color: rgb(255, 255, 255) !important;
+  height: 44px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  background-color: #d61c38;
+  margin-left: 50px;
+}
+.returnBtncancleApp:hover {
+  background-color: #d61c38 !important;
+  color: rgb(255, 255, 255) !important;
+}
+.saveBtncancleApp {
+  width: 165px;
+  border: 2px solid black;
+  margin-left: 30px;
+  border-radius: 30px;
+  margin-top: 10px;
+  height: 44px;
+  font-size: 21px;
+  color: rgb(255, 253, 253);
+  background-color: #00ad22;
+}
+.saveBtncancleApp:hover {
+  color: rgb(255, 253, 253) !important;
+  background-color: #00ad22 !important;
+}
+.saveAdviseBtncancleApp {
+    margin-top: 10px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    /* margin-right: 30px; */
+    width: 200px;
+    height: 44px;
+    border-radius: 30px;
+    background-color: #00ad22;
+    /* margin-left: 60px;
+  
+  /* margin-right: 30px; */
+  
+}
+.saveAdviseBtncancleApp:hover {
+  background-color: #00ad22 !important;
+  color: rgb(255, 255, 255) !important;
+}
+.dot1 {
+  height: 15px;
+  width: 15px;
+  background-color: #D61C38;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot2 {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(247, 211, 11);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot3 {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(15, 252, 35);
+  border-radius: 50%;
+  display: inline-block;
+}
+.warning{
+  font-size: 23px;
+    margin: 0px 55px;
+    margin-top: 137px;
+    text-align: center;
+    margin-bottom: 190px;
+}
+
+.returnBtnGoback{
+  width: 170px;
+  border: 2px solid rgb(0, 0, 0) !important;
+  margin-top: 10px;
+  color: rgb(255, 255, 255) !important;
+  height: 44px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  background-color: #d61c38;
+  margin-left: 30px;
+}
+.returnBtnGoback:hover{
+  background-color: #d61c38;
+  color: rgb(255, 255, 255) !important;
+}
+.returnBtnCancle{
+  width: 170px;
+  border: 2px solid rgb(0, 0, 0) !important;
+  margin-top: 10px;
+  color: rgb(255, 255, 255) !important;
+  height: 44px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  background-color: #d61c38;
+  margin-left: 30px;
+}
+.returnBtnCancle:hover{
+  background-color: #d61c38;
+  color: rgb(255, 255, 255) !important;
+}
+.returnBtncancleadvice{
+  width: 200px;
+  border: 2px solid rgb(0, 0, 0) !important;
+  /* margin-top: 10px; */
+  color: rgb(255, 255, 255) !important;
+  height: 55px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  background-color: #d61c38;
+  margin-left: 35px;
+}
+.returnBtncancleadvice:hover{
+  background-color: #d61c38;
+  color: rgb(255, 255, 255) !important;
+}
+.titleconfirm{
+  text-align: center;
+  margin: 61px 114px;
+  font-size: 18px;
+  color: #d61c38;
+}
+.contentconfirm{
+  font-size: 18px;
+  text-align: center;
+  margin: 59px 105px;
+  color: #00ad22;
+}
+.confirmbtn{
+  width: 170px;
+  border: 2px solid rgb(0, 0, 0) !important;
+  margin-top: 10px;
+  color: rgb(255, 255, 255) !important;
+  height: 44px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  background-color: #00ad22;
+  margin-left: 30px;
+}
+.confirmbtn:hover{
+  background-color: #00ad22;
+  color: rgb(255, 255, 255) !important;
+}

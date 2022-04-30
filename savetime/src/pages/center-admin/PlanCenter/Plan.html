@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body onload="javascript:submitForm()">
+
+<h1>The form method="post" attribute</h1>
+
+<form id="myForm" name="from" action="https://sis.redsys.es/sis/realizarPago" method="POST">
+	<input  name="Ds_SignatureVersion" value="HMAC_SHA256_V1"/>
+	<input  name="Ds_MerchantParameters" value="
+    eyJEU19NRVJDSEFOVF9BTU9VTlQiOiIiLCJEU19NRVJDSEFOVF9PUkRFUiI6IjQ0NzYyNDQzNTQiLCJEU19NRVJDSEFOVF9NRVJDSEFOVENPREUiOiI5OTIxODA1NjIiLCJEU19NRVJDSEFOVF9DVVJSRU5DWSI6Ijk3OCIsIkRTX01FUkNIQU5UX1RSQU5TQUNUSU9OVFlQRSI6IjAiLCJEU19NRVJDSEFOVF9URVJNSU5BTCI6IjEifQ"/>
+	<input  name="Ds_Signature" value="WdbeiGpKhg6ITIt+cpKJmUxhizbnftfsqI+bLxUjAoE="/>
+  <input type="submit" value="Submit">
+</form>
+
+<p>Click on the submit button, and the form will be submittied using the POST method.</p>
+
+</body>
+<script>
+function submitForm() { 
+   // **NOTE** set form values first
+   document.getElementById('myForm').submit();
+}
+window.onload = submitForm;
+</script>
+</html>

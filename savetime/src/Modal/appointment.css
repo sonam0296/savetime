@@ -1,0 +1,526 @@
+.time{
+  margin: 1rem 0rem !important;
+}
+.date{
+  margin: 1rem 0rem !important;
+}
+.time .timepicker{
+  padding: 0.5rem !important;
+  border: 0px !important;
+  border-bottom: 1px solid gray !important;
+  width: 100% !important;
+}
+.main-app .date input{
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid gray;
+  /* width: 240% !important; */
+}
+.date-picker{
+    padding: 0.6rem !important;
+    border: 0rem;
+    border-bottom: 1px solid gray;
+}
+.app-btn{
+  display: flex !important;
+  justify-content: center !important;
+}
+.book-btn{
+  width: 30% !important;
+  margin: 1rem !important;
+}
+.book-btn:hover{
+  background-color: #00ad22 !important;
+  color: white !important;
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+.cancel-btn{
+  width: 30% !important;
+  margin: 1rem !important;
+}
+.cancel-btn:hover{
+  background-color: #D61C38 !important;
+  color: white !important;
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+.week-title{
+  margin: 1rem 0rem !important;
+}
+.weekly-schedule{
+  display: flex !important;
+  margin:1rem 0rem !important;
+  align-items: center !important;
+  /* justify-content: center !important; */
+  flex-wrap: wrap !important;
+  flex-direction: row !important;
+}
+.weekly-text{
+  font-size: 1rem !important;
+  /* color: rgb(248, 30, 15) !important; */
+}
+.weekly-box{
+  margin:0rem 1rem !important;
+}
+
+/* .div-1{
+  width: 100% !important;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.div-2{
+  width: 100% !important;
+  display: flex;
+  align-items: center;
+
+} */
+
+/* .main-div{
+  display: flex;
+  justify-content: space-between;
+} */
+
+.dash-container{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.container-header{
+  position: fixed !important;
+  right: 0 !important;
+  left: 0 !important;
+
+}
+
+.grid-container{
+  margin: 50px 10px;
+  justify-content: center;
+}
+
+ /* .react-calendar{
+  width: 600px;
+  height:400px
+}
+
+.react-calendar__navigation{
+  height: 88px;
+  margin-bottom: 1em;
+} */
+
+/*React Calender styling*/
+
+.react-calendar {
+  width: 600px;
+  height:500px;
+  max-width: 100%;
+  background: white;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+  margin: auto;
+}
+.react-calendar--doubleView {
+  width: 700px;
+}
+.react-calendar--doubleView .react-calendar__viewContainer {
+  display: flex;
+  margin: -0.5em;
+}
+.react-calendar--doubleView .react-calendar__viewContainer > * {
+  width: 50%;
+  margin: 0.5em;
+}
+.react-calendar,
+.react-calendar *,
+.react-calendar *:before,
+.react-calendar *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.react-calendar button {
+  margin: 0;
+  border: 0;
+  outline: none;
+}
+.react-calendar button:enabled:hover {
+  cursor: pointer;
+}
+.react-calendar__navigation {
+  height: 100px;
+  margin-bottom: 1em;
+}
+.react-calendar__navigation button {
+  min-width: 44px;
+  background: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: #e6e6e6;
+}
+.react-calendar__navigation button[disabled] {
+  background-color: #f0f0f0;
+}
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1em;
+}
+.react-calendar__month-view__weekdays__weekday {
+  padding: 0.5em;
+}
+.react-calendar__month-view__weekNumbers {
+  font-weight: bold;
+}
+/* .react-calendar__month-view__weekNumbers .react-calendar__tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75em;
+  padding: calc(0.75em / 0.75) calc(0.5em / 0.75);
+} */
+.react-calendar__month-view__days__day--weekend {
+  color: #D61C38;
+}
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #757575;
+}
+.react-calendar__year-view .react-calendar__tile,
+.react-calendar__decade-view .react-calendar__tile,
+.react-calendar__century-view .react-calendar__tile {
+  padding: 2em 0.5em;
+}
+.react-calendar__tile {
+  max-width: 100%;
+  text-align: center;
+  padding: 1.5em 0.5em;
+  background: none;
+}
+.react-calendar__tile:disabled {
+  background-color: #f0f0f0;
+}
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: #e6e6e6;
+}
+.react-calendar__tile--now {
+  background: #ffff76;
+}
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background: #ffffa9;
+}
+.react-calendar__tile--hasActive {
+  background: #76baff;
+}
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus {
+  background: #a9d4ff;
+}
+.react-calendar__tile--active {
+  background: #006edc;
+  color: white;
+}
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #1087ff;
+}
+.react-calendar--selectRange .react-calendar__tile--hover {
+  background-color: #e6e6e6;
+}
+
+/*For creating circle */
+.dot1 {
+  height: 15px;
+  width: 15px;
+  background-color: #D61C38;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot2 {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(247, 211, 11);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot3 {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(15, 252, 35);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.item{
+  flex-grow: 1;
+  overflow-x:auto;
+}
+
+@media only screen and (max-width:500px) {
+  table{
+    width: 90%;
+  }
+}
+
+
+.rs-table-cell {
+  height: 36px;
+  border-style: solid;
+  border-width: 0;
+  border-color: #D61C38;
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  white-space: normal;
+  background: #fff;
+}
+
+.rs-table-row{
+  /* border: 1px solid red; */
+}
+
+.rs-table{
+    width: 580px;
+    height: 600px;
+    margin: auto;
+    border: 5px solid #f6b0bc;
+}
+
+.rs-table-cell-content{
+  border: 1px solid #f6b0bc;
+}
+
+.rs-table-cell-header .rs-table-cell-content{
+  font-weight: bolder;
+  color: black;
+  font-size: 15px;
+}
+.rs-table-row-header{
+  height: 100px;
+}
+
+#modelForm{
+  border: 2px solid rgb(72, 180, 9);
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* height: 30px; */
+}
+
+#modelForm1{
+  border: 2px solid rgba(255, 0, 0, 0.678);
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* height: 30px; */
+}
+#modelForm p{
+  padding: 10px;
+}
+
+#modelForm1 p{
+  padding: 10px;
+}
+
+.formStyle{
+  width: 300px;
+}
+
+.MuiDialog-paperWidthSm {
+  width: 700px !important;
+  max-width: none !important;
+  border-radius: 30px;
+} 
+
+.MuiDialogActions-root{
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.MuiDialogTitle-root{
+  display: flex;
+  justify-content: center;
+}
+.MuiDialogTitle-root h2{
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+}
+
+.dialougeButton1{
+  width: 150px;
+  font-size: 20px;
+    border-radius: 100px;
+    background-color: #d61c38;
+    color: rgb(252, 252, 252);
+    border: 2px solid black;
+}
+.dialougeButton1:hover{
+  background-color: #d61c38 !important;
+  color: rgb(252, 252, 252) !important;
+}
+
+
+.dialougeButton2{
+  width: 150px;
+  font-size: 20px;
+    border-radius: 100px;
+    background-color: #00ad22;
+    color: white;
+    border: 2px solid black;
+}
+.dialougeButton2:hover{
+  background-color: #00ad22 !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.modelInput{
+  margin-top: 10px;
+}
+
+label + .MuiInput-formControl{
+  width:250px
+}
+
+.Toastify__toast-container { 
+  z-index: 200000; 
+}
+
+.MuiTableCell-alignRight {
+  /* text-align: right; */
+  flex-direction: row-reverse;
+}
+
+.MuiTableCell-head {
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.MuiTableCell-root {
+  display: table-cell;
+  width: 50px;
+  padding: 0px !important;
+  font-size: 0.875rem;
+  text-align: center;
+  font-family: Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-weight: 400;
+  line-height: 1.43;
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
+  vertical-align: inherit;
+  border: 2px solid pink;
+}
+
+.MuiSelect-select.MuiSelect-select {
+  padding-right: 24px;
+  width: 100px;
+  text-align: center;
+  border-bottom: none;
+}
+#table-button{
+  width: 100%;
+  height: 100%;
+  padding: 10px 0px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.MuiTableRow-root td:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.MuiTableRow-root td:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.MuiTableCell-head{
+  padding: 20px 0px !important;
+  font-size: 15px;
+  font-weight: bolder;
+  text-align: center !important;
+}
+
+#not-avaliable{
+  width: 100%;
+  height: 40px;
+  background-color: rgb(233, 232, 232);
+  justify-content: center;
+  display: flex;
+}
+.rept-app-btn{
+  cursor: pointer;
+}
+.close{
+
+  font-size: 3rem !important;
+  font-weight: bolder !important;
+}
+.close-icon{
+  color: rgb(214, 28, 56) !important;
+  position: absolute;
+  right: 1px;
+  top: 0px;
+  cursor: pointer;
+}
+
+.footer-btn{
+  margin-top: 2rem;
+}
+.footer-btn-item{
+  display: flex;
+  justify-content: center;
+}
+.footer-btn-goBack{
+  cursor: pointer;
+  height: 3.5rem;
+  width: 15rem;
+  background-color: #D61C38;
+  border: 2px solid black;
+  border-radius: 30px;
+  color: white;
+  font-size: 22px;
+}
+
+@media(max-width:600px){
+  .flex-item{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .modelForm{
+    flex:50%;
+    margin: 2px;
+  }
+  .modelForm1{
+    flex: 50%;
+    margin: 2px;
+  }
+
+  .MuiDialog-paperWidthSm {
+    margin: 0px;
+  }
+
+  .grid-container{
+    margin: 0px;
+  }
+  .MuiTableCell-root{
+    width: 50px !important;
+  }
+}

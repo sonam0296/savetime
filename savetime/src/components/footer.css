@@ -1,0 +1,53 @@
+.home-footer{
+  width: 100% !important;
+  background-color: white !important;
+  display: flex !important;
+  justify-content: center !important;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  border-top: 2px solid #D61C38;
+}
+
+@media only screen and (max-width: 600px) {
+  .home-footer{
+    width: 100% !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    border-top: 2px solid #D61C38;
+  }
+  .list{
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+  }
+}
+
+.fb-icon{
+  width:20px; 
+  height:30px;
+}
+.insta-icon{
+  width:20px; 
+  height:20px;
+}
+.list{
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-around !important;
+}
+
+.icons{
+  margin:0rem 0.8rem !important;
+  font-size: 2rem !important;
+  /* padding-left: 1rem !important; */
+}
+.MuiList-padding{
+  padding: 0px !important;
+}

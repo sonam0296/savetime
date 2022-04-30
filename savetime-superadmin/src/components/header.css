@@ -1,0 +1,15 @@
+.header-logo{
+  width: 50px !important;
+  height: 50px !important;
+}
+.MuiAppBar-colorPrimary{
+  z-index: 1 !important;
+}
+
+.ldJXiE{
+  /* display: unset; */
+  max-width: 1400px !important;
+  align-items: unset !important;
+  display: none;
+  justify-content: unset;
+}

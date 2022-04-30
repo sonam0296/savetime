@@ -1,0 +1,114 @@
+.serviceDialog {
+    border-radius: 20px !important;
+}
+
+.serviceDialogContent {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.servicesContainer {
+    margin-top: 40px !important;
+}
+
+.service-form {
+    display: flex;
+}
+
+.service_div {
+    padding: 0.5rem;
+    display: flex;
+    margin: 20px;
+    /* height: 250px; */
+    overflow-y: auto;
+    border: 2px solid #00ad22;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.returnButton {
+    width: 28%;
+    border: 1.5px solid black;
+    color: white;
+    border-radius: 20px;
+    background-color: #d61c38;
+}
+
+.returnButton:hover {
+    background-color: #d61c38;
+    color: white;
+    border: 1.5px solid black;
+}
+
+.createbtn {
+    /* margin-right: 20%; */
+    margin-top: 10px;
+    border: 1.5px solid black;
+    margin-bottom: 10px;
+    color: black;
+    margin-right: 30px;
+    width: 28%;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #00ad22;
+}
+
+.createbtn:hover {
+    background-color: #00ad22;
+    color: black;
+    border: 1.5px solid black;
+}
+
+.service-papers {
+    /* width: 70%; */
+    /* margin: 1rem !important; */
+    /* height: auto; */
+    max-height: 550px;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray !important;
+    background-color: white;
+    box-shadow: 3px 3px 7px rgb(113, 113, 230);
+    border-radius: 15px !important;
+    outline: none !important;
+}
+
+.service-papers:focus {
+    outline: none !important;
+}
+
+.paper-schedule {
+    display: flex;
+    align-items: center;
+}
+
+.createServices{
+    color: #E9222F !important;
+    background-color: #f0f0f0;
+    border: 1px solid #E9222F;
+    padding: 7px;
+    border-top-left-radius: 50px 50px;
+    border-bottom-left-radius: 50px 50px;
+    border-top-right-radius: 50px 50px;
+    border-bottom-right-radius: 50px 50px;
+    width: 12rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .service-form {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,16 @@
+.worker-btn{
+    display: flex;
+    align-items: center;
+    justify-content:space-around !important;
+    margin: 20px;
+    /* margin-bottom: 5rem !important; */
+   
+  }
+  .mainPage-container{
+    /* max-width: 100% !important; */
+    height:100vh !important;
+    width:100% !important;
+  }
+  .field{
+      margin-top: 20px;
+  }

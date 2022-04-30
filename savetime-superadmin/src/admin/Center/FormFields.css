@@ -1,0 +1,38 @@
+.rightText{
+    margin: 20px;
+}
+.backButton{
+    background-color: white !important;
+    border-radius: 15px;
+    margin-left: 10px;
+    text-align: center;
+    border: 2px solid #D50032;
+    color: #D50032;
+}
+.saveButton{
+    background-color: white !important;
+    border-radius: 15px;
+    margin-left: 10px;
+    text-align: center;
+    border: 2px solid green;
+    color: green;
+}
+.serviceButton{
+    margin: 20px;
+}
+.buttonStyle{
+    background-color: white !important;
+    border-radius: 15px;
+    width: 250px;
+    text-align: left;
+    border: 2px solid #D50032;
+    color: blue;
+}
+.arrow {
+    width: 20% !important;
+    color: #D50032;
+    font-size: 30px;
+    cursor: pointer;
+    float: right;
+    margin-top: -25px;
+}

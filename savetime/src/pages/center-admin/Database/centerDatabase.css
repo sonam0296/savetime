@@ -1,0 +1,19 @@
+@media only screen and (max-width: 600px) {
+    .firstrowsinputs{
+        display: flex;
+        flex-direction: column;
+    }
+    .secondrowinputs{
+        display: flex;
+        flex-direction: column;
+    }
+    .applyfilter{
+        position: absolute;
+        margin-top: 17rem !important;
+        margin-left: 3rem;
+    }
+    .databaseContainer{
+        padding-left: 2.5rem !important;
+        padding-right: 0rem !important;
+    }
+  }

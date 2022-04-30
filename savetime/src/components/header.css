@@ -1,0 +1,51 @@
+.header-logo{
+  width: 50px !important;
+  height: 50px !important;
+}
+.MuiAppBar-colorPrimary{
+  z-index: 1 !important;
+}
+/* .MuiSelect-select{
+  display: flex;
+  align-items: center;
+  width: 200px !important;
+  text-align: start;
+} */
+.MenuItem{
+  width: 200px !important;
+  display: flex;
+}
+.img_iconworker{
+  height: 23px;
+  width: 23px;
+  /* margin-top: 3px; */
+  /* margin-left: 5px; */
+  margin-bottom: -7px;
+  margin-right: 5px;
+  border-radius: 30px;
+  border: 2px solid black;
+}
+.img_icon_centerimage{
+  height: 35px;
+  width: 35px;
+  margin-top: 8px;
+  /* margin-left: 5px; */
+  /* margin-bottom: -7px; */
+  margin-right: 8px;
+  border-radius: 30px;
+  border: 2px solid rgb(5, 5, 5);
+}
+/* .MuiSelect-select{
+  width: 200px;
+} */
+.workername::before{
+  width: 200px !important;
+text-align: start !important;
+}
+.workername{
+width: 200px !important;
+text-align: start !important;
+}
+#uncontrolled-native{
+  margin-top: -5px;
+}

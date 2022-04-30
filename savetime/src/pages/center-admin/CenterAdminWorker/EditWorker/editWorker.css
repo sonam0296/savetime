@@ -1,0 +1,126 @@
+.buttonForActive {
+    align-items: center;
+    text-align: center;
+    width: 45%;
+    border-radius: 50px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.2rem;
+    font-weight: 800;
+    font-size: medium;
+}
+
+.buttonShowBlckBorder {
+    align-items: center;
+    border: 2px solid black;
+    width: 38%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    padding: 0.2rem;
+    font-weight: 800;
+    font-size: medium;
+}
+
+.buttonText {
+    text-align: center;
+    align-items: center;
+}
+
+.RemoveButton {
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    background-color: #E5212E;
+    color: black;
+    width: 38%;
+    border-radius: 50px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    padding: 0.2rem;
+    font-weight: 800;
+    font-size: medium;
+}
+
+.BackButton {
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    background-color: #E5212E;
+    color: white;
+    width: 38%;
+    border-radius: 50px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    padding: 0.2rem;
+    font-weight: 800;
+    font-size: medium;
+}
+
+.activeButton{
+    display: flex;
+    justify-content: space-between;
+}
+.buttonForActive{
+
+}
+.warningworker{
+    font-size: 23px;
+    margin: 0px 35px;
+    margin-top: 95px;
+    text-align: center;
+    margin-bottom: 109px;
+    color: "#d61c38";
+  }
+
+  .returnBtnGobackworker{
+    width: 153px;
+    border: 2px solid rgb(0, 0, 0) !important;
+    margin-top: 10px;
+    color: rgb(255, 255, 255) !important;
+    height: 44px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    background-color: #d61c38 !important;
+    margin-left: 30px;
+  }
+  .returnBtnGobackworker:hover{
+    background-color: #d61c38 !important;
+    color: rgb(255, 255, 255) !important;
+  }
+  .returnBtnCancleworker{
+    width: 156px;
+    border: 2px solid rgb(0, 0, 0) !important;
+    margin-top: 10px;
+    color: rgb(255, 255, 255) !important;
+    height: 44px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    background-color: #d61c38 !important;
+    margin-left: 13px;
+  }
+  .returnBtnCancleworker:hover{
+    background-color: #d61c38 !important;
+    color: rgb(255, 255, 255) !important;
+  }
+  .returnBtncancleadviceworker{
+    width: 200px;
+    border: 2px solid rgb(0, 0, 0) !important;
+    /* margin-top: 10px; */
+    color: rgb(255, 255, 255) !important;
+    height: 55px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    background-color: #d61c38 !important;
+    margin-left: 0px;
+  }
+  .returnBtncancleadviceworker:hover{
+    background-color: #d61c38 !important;
+    color: rgb(255, 255, 255) !important;
+  }
+  

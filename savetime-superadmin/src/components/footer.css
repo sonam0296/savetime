@@ -1,0 +1,29 @@
+.home-footer{
+  width: 100% !important;
+  background-color: white !important;
+  display: flex !important;
+  justify-content: center !important;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.fb-icon{
+  width:30px; 
+  height:40px;
+}
+.insta-icon{
+  width:30px; 
+  height:30px;
+}
+.list{
+  display: flex !important;
+  align-items: center !important;
+}
+
+.icon{
+  margin:0rem 0.8rem !important;
+  /* padding-left: 1rem !important; */
+}
+.MuiList-padding{
+  padding: 0px !important;
+}

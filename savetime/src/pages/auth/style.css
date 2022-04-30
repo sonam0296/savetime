@@ -1,0 +1,46 @@
+/* background-image: url("https://savetime-image.s3.amazonaws.com/Fondo%20pantalla%201%20Registro%20centros-46b309f1-39ad-44ee-81fd-2a550b11966e.png"); */
+.home-container{
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0rem !important;
+  position: relative !important;
+  /* position: absolute !important;
+  top: 0;
+  left: 0; */
+}
+.home-content{
+  position: absolute !important;
+  margin: 10rem !important;
+  z-index: 1;
+  /* display: flex !important;
+  justify-content: center !important;
+  margin: auto !important;
+  height: 600px; */
+  /* position: absolute !important;
+  top: 30% !important;
+  left: 0; */
+}
+.bg-image{
+  /* height: 600px; */
+}
+.home-image{
+  width: 100% !important;  
+  max-width: 100% !important;
+  height: auto !important;
+}
+.items{
+  width: 100% !important;
+  display: flex !important;
+  margin: auto;
+  justify-content:center !important;
+  align-items: center !important;
+}
+.home-logo{
+  width: 100px;
+  height: 100px;
+  /* width: 50px !important; */
+  /* height: 50px !important; */
+    /* position:absolute; */
+    /* top: 0; */
+
+}

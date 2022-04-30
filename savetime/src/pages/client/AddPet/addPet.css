@@ -1,0 +1,143 @@
+.name-field-pet{
+    width: 100%;
+    margin-top: 2rem !important;
+    
+  }
+  .MuiSelect-select{
+    min-width: 150px;
+    width: 150px;
+  }
+  .img-upload{
+    cursor: pointer;
+  }
+  /* .dTSZep{
+    max-width: none !important;
+  } */
+  .worker-papers{
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .paper-form{
+    display: flex;
+    flex-direction: column;
+  }
+  /* .worker-papers{
+     width: 70%;
+     margin: 1rem !important;
+     height: auto;
+     max-height:550px; 
+     margin-top: -10rem !important;
+  width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border:2px solid gray !important;
+     background-color: white;
+     box-shadow: 3px 3px 7px rgb(113, 113, 230);
+     border-radius: 15px !important;
+     outline: none !important;
+  
+  } */
+ 
+  .fa-plus-circle{
+    font-size: 2rem !important;
+    color: #D61C38 !important;
+  }
+  .pawicon{
+    font-size: 2rem !important;
+  }
+ 
+  .worker-papers:focus{
+    outline: none !important;
+  }
+
+  .delet-div> .delet-btn{
+    width: 30px !important;
+    height: 14px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  #standard-start-adornment{
+    /* margin-top: 5px !important; */
+  }
+  .delet-div{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 2rem !important;
+  }
+  
+.footer-btn{
+  display: flex !important;
+  /* justify-content: center !important; */
+  margin-top: 3rem !important;
+  justify-content: space-evenly !important;
+ /* flex-direction: column !important; */
+}
+
+
+  .papers-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 3rem; */
+    /* font-weight: 800; */
+  
+    padding: 1rem !important;
+  }
+  .MuiSwitch-switchBase{
+    top: 2px !important;
+  }
+  .worker-1{
+     display: flex;
+    align-items: center;
+  
+  
+  }
+  .avatar-image{
+    width: 152px !important; 
+    height: 152px !important;
+  }
+  .paper-schedule{
+      display: flex;
+    align-items: center;
+  }
+  
+  .paper-schedule .schedule-input{
+    margin: 0rem 3rem !important;
+  }
+  .paper-schedule .main-shedule{
+    margin-top: 3rem !important;
+  }
+  .sb-avatar{
+    margin-top:1rem !important;
+    /* border: 1px solid red !important; */
+  }
+  .paper-schedule .worker-btn{
+    margin: 0.5rem 1rem !important;
+  
+  }
+  .worker-paper-btn{
+    display: flex !important;
+    align-items: center !important;
+    justify-content:space-around !important;
+    /* margin: 5rem !important; */
+    /* margin-top: 1rem !important; */
+    padding: 1rem !important;  
+  
+  }
+  .paper-schedule .worker-btn .MuiButton-root{
+    /* padding: 0.1rem 2.2rem !important; */
+  }
+  .close{
+  
+    font-size: 2rem !important;
+  }
+  .close-icon{
+    color: #D61C38 !important;
+    position: absolute;
+    right: 50px;
+    top: 5px;
+  }

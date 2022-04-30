@@ -1,0 +1,35 @@
+.paper{
+    background-color: white !important;
+    border: 2px solid blue !important;
+    border-radius: 15px !important;
+    padding: 4rem 4rem 4rem !important;
+    margin: 1rem !important;
+    box-shadow: 5px 10px 18px #888888;
+    position: relative;  
+    outline: none !important;
+}
+.close-icon{
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+.title{
+  padding: 1rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description{
+  padding:0.5rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.back-btn{
+  
+  display: flex !important;
+  width: 100% !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 3rem !important;
+}

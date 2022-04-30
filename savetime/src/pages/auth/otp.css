@@ -1,0 +1,84 @@
+.otp-home{
+ position: relative;
+}
+.otp-data{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: absolute;
+ flex-direction: column;
+ top: 20%;
+ bottom: 20%;
+ margin: auto;
+ width: 100%;
+}
+.otp-box{
+  background-color: white;
+ 
+  margin: 1rem !important;
+  z-index: 999;
+  padding: 2rem !important;
+  position: relative;
+ 
+  margin-bottom: 3rem !important;
+  box-shadow: 6px 4px 4px black;
+}
+.otp-data input {
+ width: 3rem !important;
+ height: 3rem !important;
+ font-size: 2rem !important;
+ color: black !important;
+ border-radius: 4px;
+ border: 1px solid rgba(0,0,0,0.3);
+
+
+}
+@media only screen and (max-device-width: 768px) {
+  .otp-data input {
+      width: 2rem !important;
+      height: 2rem !important;
+      font-size: 2rem !important;
+      color: black !important;
+  }
+}
+
+.otp-verify-btn{
+  margin: 1.5rem 1rem !important;
+  padding:0.5rem 0.8rem !important;
+  background-color: #f44336 !important;
+  color: white !important;
+}
+.otp-heading{
+  margin: 1.5rem !important;
+  bottom:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem !important;
+ 
+  font-weight: 700;
+}
+.otp-item{
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 1rem !important;
+}
+.MuiStepIcon-root.MuiStepIcon-active{
+  color: #f50057 !important;
+}
+.MuiStepIcon-root.MuiStepIcon-completed{
+  color: #22bb33 !important;
+
+}
+.otp-back{
+   position: absolute;
+  top: 0;
+  width: 100% !important;
+  height: 100vh !important;
+  background-color:rgb(20, 19, 19);;
+  opacity: 0.7;
+  z-index:1;
+}
